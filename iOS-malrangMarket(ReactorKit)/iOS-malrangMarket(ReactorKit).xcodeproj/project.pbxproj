@@ -15,6 +15,9 @@
 		3033FF28292CD06C0047F0B3 /* iOS_malrangMarket_ReactorKit_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3033FF27292CD06C0047F0B3 /* iOS_malrangMarket_ReactorKit_Tests.swift */; };
 		3033FF32292CD06C0047F0B3 /* iOS_malrangMarket_ReactorKit_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3033FF31292CD06C0047F0B3 /* iOS_malrangMarket_ReactorKit_UITests.swift */; };
 		3033FF34292CD06C0047F0B3 /* iOS_malrangMarket_ReactorKit_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3033FF33292CD06C0047F0B3 /* iOS_malrangMarket_ReactorKit_UITestsLaunchTests.swift */; };
+		D2D263D427138E8ED19D2B14 /* Pods_iOS_malrangMarket_ReactorKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF042CD676CEBE4A40068D0 /* Pods_iOS_malrangMarket_ReactorKit_Tests.framework */; };
+		DC0F52314888E28C46E5B4B3 /* Pods_iOS_malrangMarket_ReactorKit__iOS_malrangMarket_ReactorKit_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4D4964B7F5666716C1EAA9 /* Pods_iOS_malrangMarket_ReactorKit__iOS_malrangMarket_ReactorKit_UITests.framework */; };
+		F42F43F929A01A0B6A145766 /* Pods_iOS_malrangMarket_ReactorKit_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EEEFFC059685625A9BA600 /* Pods_iOS_malrangMarket_ReactorKit_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B4D4964B7F5666716C1EAA9 /* Pods_iOS_malrangMarket_ReactorKit__iOS_malrangMarket_ReactorKit_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_malrangMarket_ReactorKit__iOS_malrangMarket_ReactorKit_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17AEE9122E1453A311419A5B /* Pods-iOS-malrangMarket(ReactorKit)Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-malrangMarket(ReactorKit)Tests.release.xcconfig"; path = "Target Support Files/Pods-iOS-malrangMarket(ReactorKit)Tests/Pods-iOS-malrangMarket(ReactorKit)Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1CB872F2907B57F326EF4D8C /* Pods-iOS-malrangMarket(ReactorKit)Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-malrangMarket(ReactorKit)Tests.debug.xcconfig"; path = "Target Support Files/Pods-iOS-malrangMarket(ReactorKit)Tests/Pods-iOS-malrangMarket(ReactorKit)Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CF042CD676CEBE4A40068D0 /* Pods_iOS_malrangMarket_ReactorKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_malrangMarket_ReactorKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3033FF0D292CD06A0047F0B3 /* iOS-malrangMarket(ReactorKit).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-malrangMarket(ReactorKit).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3033FF10292CD06A0047F0B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3033FF12292CD06A0047F0B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		3033FF2D292CD06C0047F0B3 /* iOS-malrangMarket(ReactorKit)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-malrangMarket(ReactorKit)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3033FF31292CD06C0047F0B3 /* iOS_malrangMarket_ReactorKit_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_malrangMarket_ReactorKit_UITests.swift; sourceTree = "<group>"; };
 		3033FF33292CD06C0047F0B3 /* iOS_malrangMarket_ReactorKit_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_malrangMarket_ReactorKit_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		97A87A272E0B19FC1485AAA8 /* Pods-iOS-malrangMarket(ReactorKit)-iOS-malrangMarket(ReactorKit)UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-malrangMarket(ReactorKit)-iOS-malrangMarket(ReactorKit)UITests.debug.xcconfig"; path = "Target Support Files/Pods-iOS-malrangMarket(ReactorKit)-iOS-malrangMarket(ReactorKit)UITests/Pods-iOS-malrangMarket(ReactorKit)-iOS-malrangMarket(ReactorKit)UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BEF27A176101539E2FCFEFA8 /* Pods-iOS-malrangMarket(ReactorKit)-iOS-malrangMarket(ReactorKit)UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-malrangMarket(ReactorKit)-iOS-malrangMarket(ReactorKit)UITests.release.xcconfig"; path = "Target Support Files/Pods-iOS-malrangMarket(ReactorKit)-iOS-malrangMarket(ReactorKit)UITests/Pods-iOS-malrangMarket(ReactorKit)-iOS-malrangMarket(ReactorKit)UITests.release.xcconfig"; sourceTree = "<group>"; };
+		D0CBE664747F055635E32EFF /* Pods-iOS-malrangMarket(ReactorKit).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-malrangMarket(ReactorKit).release.xcconfig"; path = "Target Support Files/Pods-iOS-malrangMarket(ReactorKit)/Pods-iOS-malrangMarket(ReactorKit).release.xcconfig"; sourceTree = "<group>"; };
+		D3EEEFFC059685625A9BA600 /* Pods_iOS_malrangMarket_ReactorKit_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_malrangMarket_ReactorKit_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE2343CC86C5F661891D77E /* Pods-iOS-malrangMarket(ReactorKit).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-malrangMarket(ReactorKit).debug.xcconfig"; path = "Target Support Files/Pods-iOS-malrangMarket(ReactorKit)/Pods-iOS-malrangMarket(ReactorKit).debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F42F43F929A01A0B6A145766 /* Pods_iOS_malrangMarket_ReactorKit_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D263D427138E8ED19D2B14 /* Pods_iOS_malrangMarket_ReactorKit_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC0F52314888E28C46E5B4B3 /* Pods_iOS_malrangMarket_ReactorKit__iOS_malrangMarket_ReactorKit_UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24F7329D890B805C6833F160 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3EEEFFC059685625A9BA600 /* Pods_iOS_malrangMarket_ReactorKit_.framework */,
+				0B4D4964B7F5666716C1EAA9 /* Pods_iOS_malrangMarket_ReactorKit__iOS_malrangMarket_ReactorKit_UITests.framework */,
+				2CF042CD676CEBE4A40068D0 /* Pods_iOS_malrangMarket_ReactorKit_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3033FF04292CD06A0047F0B3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				3033FF26292CD06C0047F0B3 /* iOS-malrangMarket(ReactorKit)Tests */,
 				3033FF30292CD06C0047F0B3 /* iOS-malrangMarket(ReactorKit)UITests */,
 				3033FF0E292CD06A0047F0B3 /* Products */,
+				E5E83607FD9060EA533560B6 /* Pods */,
+				24F7329D890B805C6833F160 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,6 +175,20 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
+		E5E83607FD9060EA533560B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAE2343CC86C5F661891D77E /* Pods-iOS-malrangMarket(ReactorKit).debug.xcconfig */,
+				D0CBE664747F055635E32EFF /* Pods-iOS-malrangMarket(ReactorKit).release.xcconfig */,
+				97A87A272E0B19FC1485AAA8 /* Pods-iOS-malrangMarket(ReactorKit)-iOS-malrangMarket(ReactorKit)UITests.debug.xcconfig */,
+				BEF27A176101539E2FCFEFA8 /* Pods-iOS-malrangMarket(ReactorKit)-iOS-malrangMarket(ReactorKit)UITests.release.xcconfig */,
+				1CB872F2907B57F326EF4D8C /* Pods-iOS-malrangMarket(ReactorKit)Tests.debug.xcconfig */,
+				17AEE9122E1453A311419A5B /* Pods-iOS-malrangMarket(ReactorKit)Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3033FF37292CD06C0047F0B3 /* Build configuration list for PBXNativeTarget "iOS-malrangMarket(ReactorKit)" */;
 			buildPhases = (
+				79E3E52AE585E29A786E1852 /* [CP] Check Pods Manifest.lock */,
 				3033FF09292CD06A0047F0B3 /* Sources */,
 				3033FF0A292CD06A0047F0B3 /* Frameworks */,
 				3033FF0B292CD06A0047F0B3 /* Resources */,
+				BC611EAAA82339913C393513 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3033FF3A292CD06C0047F0B3 /* Build configuration list for PBXNativeTarget "iOS-malrangMarket(ReactorKit)Tests" */;
 			buildPhases = (
+				585BBCDA84DF7E2EF5BF91D6 /* [CP] Check Pods Manifest.lock */,
 				3033FF1F292CD06C0047F0B3 /* Sources */,
 				3033FF20292CD06C0047F0B3 /* Frameworks */,
 				3033FF21292CD06C0047F0B3 /* Resources */,
@@ -190,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3033FF3D292CD06C0047F0B3 /* Build configuration list for PBXNativeTarget "iOS-malrangMarket(ReactorKit)UITests" */;
 			buildPhases = (
+				99F5AA0DD0C72BD882DB8B09 /* [CP] Check Pods Manifest.lock */,
 				3033FF29292CD06C0047F0B3 /* Sources */,
 				3033FF2A292CD06C0047F0B3 /* Frameworks */,
 				3033FF2B292CD06C0047F0B3 /* Resources */,
+				82F4BDA1E84AA7A1A3CE7558 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -272,6 +318,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		585BBCDA84DF7E2EF5BF91D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS-malrangMarket(ReactorKit)Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79E3E52AE585E29A786E1852 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS-malrangMarket(ReactorKit)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82F4BDA1E84AA7A1A3CE7558 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-malrangMarket(ReactorKit)-iOS-malrangMarket(ReactorKit)UITests/Pods-iOS-malrangMarket(ReactorKit)-iOS-malrangMarket(ReactorKit)UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-malrangMarket(ReactorKit)-iOS-malrangMarket(ReactorKit)UITests/Pods-iOS-malrangMarket(ReactorKit)-iOS-malrangMarket(ReactorKit)UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS-malrangMarket(ReactorKit)-iOS-malrangMarket(ReactorKit)UITests/Pods-iOS-malrangMarket(ReactorKit)-iOS-malrangMarket(ReactorKit)UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99F5AA0DD0C72BD882DB8B09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS-malrangMarket(ReactorKit)-iOS-malrangMarket(ReactorKit)UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC611EAAA82339913C393513 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-malrangMarket(ReactorKit)/Pods-iOS-malrangMarket(ReactorKit)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-malrangMarket(ReactorKit)/Pods-iOS-malrangMarket(ReactorKit)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS-malrangMarket(ReactorKit)/Pods-iOS-malrangMarket(ReactorKit)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3033FF09292CD06A0047F0B3 /* Sources */ = {
@@ -444,6 +593,7 @@
 		};
 		3033FF38292CD06C0047F0B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAE2343CC86C5F661891D77E /* Pods-iOS-malrangMarket(ReactorKit).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +621,7 @@
 		};
 		3033FF39292CD06C0047F0B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0CBE664747F055635E32EFF /* Pods-iOS-malrangMarket(ReactorKit).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -498,6 +649,7 @@
 		};
 		3033FF3B292CD06C0047F0B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CB872F2907B57F326EF4D8C /* Pods-iOS-malrangMarket(ReactorKit)Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -517,6 +669,7 @@
 		};
 		3033FF3C292CD06C0047F0B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17AEE9122E1453A311419A5B /* Pods-iOS-malrangMarket(ReactorKit)Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +689,7 @@
 		};
 		3033FF3E292CD06C0047F0B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97A87A272E0B19FC1485AAA8 /* Pods-iOS-malrangMarket(ReactorKit)-iOS-malrangMarket(ReactorKit)UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -553,6 +707,7 @@
 		};
 		3033FF3F292CD06C0047F0B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEF27A176101539E2FCFEFA8 /* Pods-iOS-malrangMarket(ReactorKit)-iOS-malrangMarket(ReactorKit)UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'iOS-malrangMarket(ReactorKit)' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'ReactorKit'
+  pod 'RxCocoa', '~> 6.5.0'
+  pod 'SnapKit', '~> 5.0.0'
+
+  # Pods for iOS-malrangMarket(ReactorKit)
+
+  target 'iOS-malrangMarket(ReactorKit)Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'iOS-malrangMarket(ReactorKit)UITests' do
+    # Pods for testing
+  end
+
+end
