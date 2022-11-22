@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3033FF11292CD06A0047F0B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3033FF10292CD06A0047F0B3 /* AppDelegate.swift */; };
+		3033FF13292CD06A0047F0B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3033FF12292CD06A0047F0B3 /* SceneDelegate.swift */; };
+		3033FF15292CD06A0047F0B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3033FF14292CD06A0047F0B3 /* ViewController.swift */; };
+		3033FF1A292CD06C0047F0B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3033FF19292CD06C0047F0B3 /* Assets.xcassets */; };
+		3033FF1D292CD06C0047F0B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3033FF1B292CD06C0047F0B3 /* LaunchScreen.storyboard */; };
+		3033FF28292CD06C0047F0B3 /* iOS_malrangMarket_ReactorKit_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3033FF27292CD06C0047F0B3 /* iOS_malrangMarket_ReactorKit_Tests.swift */; };
+		3033FF32292CD06C0047F0B3 /* iOS_malrangMarket_ReactorKit_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3033FF31292CD06C0047F0B3 /* iOS_malrangMarket_ReactorKit_UITests.swift */; };
+		3033FF34292CD06C0047F0B3 /* iOS_malrangMarket_ReactorKit_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3033FF33292CD06C0047F0B3 /* iOS_malrangMarket_ReactorKit_UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3033FF24292CD06C0047F0B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3033FF05292CD06A0047F0B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3033FF0C292CD06A0047F0B3;
+			remoteInfo = "iOS-malrangMarket(ReactorKit)";
+		};
+		3033FF2E292CD06C0047F0B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3033FF05292CD06A0047F0B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3033FF0C292CD06A0047F0B3;
+			remoteInfo = "iOS-malrangMarket(ReactorKit)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3033FF0D292CD06A0047F0B3 /* iOS-malrangMarket(ReactorKit).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-malrangMarket(ReactorKit).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3033FF10292CD06A0047F0B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3033FF12292CD06A0047F0B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3033FF14292CD06A0047F0B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3033FF19292CD06C0047F0B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3033FF1C292CD06C0047F0B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3033FF1E292CD06C0047F0B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3033FF23292CD06C0047F0B3 /* iOS-malrangMarket(ReactorKit)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-malrangMarket(ReactorKit)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3033FF27292CD06C0047F0B3 /* iOS_malrangMarket_ReactorKit_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_malrangMarket_ReactorKit_Tests.swift; sourceTree = "<group>"; };
+		3033FF2D292CD06C0047F0B3 /* iOS-malrangMarket(ReactorKit)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-malrangMarket(ReactorKit)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3033FF31292CD06C0047F0B3 /* iOS_malrangMarket_ReactorKit_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_malrangMarket_ReactorKit_UITests.swift; sourceTree = "<group>"; };
+		3033FF33292CD06C0047F0B3 /* iOS_malrangMarket_ReactorKit_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_malrangMarket_ReactorKit_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3033FF0A292CD06A0047F0B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3033FF20292CD06C0047F0B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3033FF2A292CD06C0047F0B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3033FF04292CD06A0047F0B3 = {
+			isa = PBXGroup;
+			children = (
+				3033FF0F292CD06A0047F0B3 /* iOS-malrangMarket(ReactorKit) */,
+				3033FF26292CD06C0047F0B3 /* iOS-malrangMarket(ReactorKit)Tests */,
+				3033FF30292CD06C0047F0B3 /* iOS-malrangMarket(ReactorKit)UITests */,
+				3033FF0E292CD06A0047F0B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3033FF0E292CD06A0047F0B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3033FF0D292CD06A0047F0B3 /* iOS-malrangMarket(ReactorKit).app */,
+				3033FF23292CD06C0047F0B3 /* iOS-malrangMarket(ReactorKit)Tests.xctest */,
+				3033FF2D292CD06C0047F0B3 /* iOS-malrangMarket(ReactorKit)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3033FF0F292CD06A0047F0B3 /* iOS-malrangMarket(ReactorKit) */ = {
+			isa = PBXGroup;
+			children = (
+				3033FF1E292CD06C0047F0B3 /* Info.plist */,
+				3033FF42292CD28F0047F0B3 /* Application */,
+				3033FF40292CD0730047F0B3 /* Resource */,
+				3033FF41292CD2840047F0B3 /* Source */,
+			);
+			path = "iOS-malrangMarket(ReactorKit)";
+			sourceTree = "<group>";
+		};
+		3033FF26292CD06C0047F0B3 /* iOS-malrangMarket(ReactorKit)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3033FF27292CD06C0047F0B3 /* iOS_malrangMarket_ReactorKit_Tests.swift */,
+			);
+			path = "iOS-malrangMarket(ReactorKit)Tests";
+			sourceTree = "<group>";
+		};
+		3033FF30292CD06C0047F0B3 /* iOS-malrangMarket(ReactorKit)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3033FF31292CD06C0047F0B3 /* iOS_malrangMarket_ReactorKit_UITests.swift */,
+				3033FF33292CD06C0047F0B3 /* iOS_malrangMarket_ReactorKit_UITestsLaunchTests.swift */,
+			);
+			path = "iOS-malrangMarket(ReactorKit)UITests";
+			sourceTree = "<group>";
+		};
+		3033FF40292CD0730047F0B3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3033FF1B292CD06C0047F0B3 /* LaunchScreen.storyboard */,
+				3033FF19292CD06C0047F0B3 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		3033FF41292CD2840047F0B3 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				3033FF14292CD06A0047F0B3 /* ViewController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		3033FF42292CD28F0047F0B3 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3033FF12292CD06A0047F0B3 /* SceneDelegate.swift */,
+				3033FF10292CD06A0047F0B3 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3033FF0C292CD06A0047F0B3 /* iOS-malrangMarket(ReactorKit) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3033FF37292CD06C0047F0B3 /* Build configuration list for PBXNativeTarget "iOS-malrangMarket(ReactorKit)" */;
+			buildPhases = (
+				3033FF09292CD06A0047F0B3 /* Sources */,
+				3033FF0A292CD06A0047F0B3 /* Frameworks */,
+				3033FF0B292CD06A0047F0B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-malrangMarket(ReactorKit)";
+			productName = "iOS-malrangMarket(ReactorKit)";
+			productReference = 3033FF0D292CD06A0047F0B3 /* iOS-malrangMarket(ReactorKit).app */;
+			productType = "com.apple.product-type.application";
+		};
+		3033FF22292CD06C0047F0B3 /* iOS-malrangMarket(ReactorKit)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3033FF3A292CD06C0047F0B3 /* Build configuration list for PBXNativeTarget "iOS-malrangMarket(ReactorKit)Tests" */;
+			buildPhases = (
+				3033FF1F292CD06C0047F0B3 /* Sources */,
+				3033FF20292CD06C0047F0B3 /* Frameworks */,
+				3033FF21292CD06C0047F0B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3033FF25292CD06C0047F0B3 /* PBXTargetDependency */,
+			);
+			name = "iOS-malrangMarket(ReactorKit)Tests";
+			productName = "iOS-malrangMarket(ReactorKit)Tests";
+			productReference = 3033FF23292CD06C0047F0B3 /* iOS-malrangMarket(ReactorKit)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3033FF2C292CD06C0047F0B3 /* iOS-malrangMarket(ReactorKit)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3033FF3D292CD06C0047F0B3 /* Build configuration list for PBXNativeTarget "iOS-malrangMarket(ReactorKit)UITests" */;
+			buildPhases = (
+				3033FF29292CD06C0047F0B3 /* Sources */,
+				3033FF2A292CD06C0047F0B3 /* Frameworks */,
+				3033FF2B292CD06C0047F0B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3033FF2F292CD06C0047F0B3 /* PBXTargetDependency */,
+			);
+			name = "iOS-malrangMarket(ReactorKit)UITests";
+			productName = "iOS-malrangMarket(ReactorKit)UITests";
+			productReference = 3033FF2D292CD06C0047F0B3 /* iOS-malrangMarket(ReactorKit)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3033FF05292CD06A0047F0B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					3033FF0C292CD06A0047F0B3 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					3033FF22292CD06C0047F0B3 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 3033FF0C292CD06A0047F0B3;
+					};
+					3033FF2C292CD06C0047F0B3 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 3033FF0C292CD06A0047F0B3;
+					};
+				};
+			};
+			buildConfigurationList = 3033FF08292CD06A0047F0B3 /* Build configuration list for PBXProject "iOS-malrangMarket(ReactorKit)" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3033FF04292CD06A0047F0B3;
+			productRefGroup = 3033FF0E292CD06A0047F0B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3033FF0C292CD06A0047F0B3 /* iOS-malrangMarket(ReactorKit) */,
+				3033FF22292CD06C0047F0B3 /* iOS-malrangMarket(ReactorKit)Tests */,
+				3033FF2C292CD06C0047F0B3 /* iOS-malrangMarket(ReactorKit)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3033FF0B292CD06A0047F0B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3033FF1D292CD06C0047F0B3 /* LaunchScreen.storyboard in Resources */,
+				3033FF1A292CD06C0047F0B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3033FF21292CD06C0047F0B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3033FF2B292CD06C0047F0B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3033FF09292CD06A0047F0B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3033FF15292CD06A0047F0B3 /* ViewController.swift in Sources */,
+				3033FF11292CD06A0047F0B3 /* AppDelegate.swift in Sources */,
+				3033FF13292CD06A0047F0B3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3033FF1F292CD06C0047F0B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3033FF28292CD06C0047F0B3 /* iOS_malrangMarket_ReactorKit_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3033FF29292CD06C0047F0B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3033FF32292CD06C0047F0B3 /* iOS_malrangMarket_ReactorKit_UITests.swift in Sources */,
+				3033FF34292CD06C0047F0B3 /* iOS_malrangMarket_ReactorKit_UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3033FF25292CD06C0047F0B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3033FF0C292CD06A0047F0B3 /* iOS-malrangMarket(ReactorKit) */;
+			targetProxy = 3033FF24292CD06C0047F0B3 /* PBXContainerItemProxy */;
+		};
+		3033FF2F292CD06C0047F0B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3033FF0C292CD06A0047F0B3 /* iOS-malrangMarket(ReactorKit) */;
+			targetProxy = 3033FF2E292CD06C0047F0B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3033FF1B292CD06C0047F0B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3033FF1C292CD06C0047F0B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3033FF35292CD06C0047F0B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3033FF36292CD06C0047F0B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3033FF38292CD06C0047F0B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS-malrangMarket(ReactorKit)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "malrang.iOS-malrangMarket-ReactorKit-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3033FF39292CD06C0047F0B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS-malrangMarket(ReactorKit)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "malrang.iOS-malrangMarket-ReactorKit-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3033FF3B292CD06C0047F0B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "malrang.iOS-malrangMarket-ReactorKit-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-malrangMarket(ReactorKit).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS-malrangMarket(ReactorKit)";
+			};
+			name = Debug;
+		};
+		3033FF3C292CD06C0047F0B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "malrang.iOS-malrangMarket-ReactorKit-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-malrangMarket(ReactorKit).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS-malrangMarket(ReactorKit)";
+			};
+			name = Release;
+		};
+		3033FF3E292CD06C0047F0B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "malrang.iOS-malrangMarket-ReactorKit-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS-malrangMarket(ReactorKit)";
+			};
+			name = Debug;
+		};
+		3033FF3F292CD06C0047F0B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "malrang.iOS-malrangMarket-ReactorKit-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS-malrangMarket(ReactorKit)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3033FF08292CD06A0047F0B3 /* Build configuration list for PBXProject "iOS-malrangMarket(ReactorKit)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3033FF35292CD06C0047F0B3 /* Debug */,
+				3033FF36292CD06C0047F0B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3033FF37292CD06C0047F0B3 /* Build configuration list for PBXNativeTarget "iOS-malrangMarket(ReactorKit)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3033FF38292CD06C0047F0B3 /* Debug */,
+				3033FF39292CD06C0047F0B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3033FF3A292CD06C0047F0B3 /* Build configuration list for PBXNativeTarget "iOS-malrangMarket(ReactorKit)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3033FF3B292CD06C0047F0B3 /* Debug */,
+				3033FF3C292CD06C0047F0B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3033FF3D292CD06C0047F0B3 /* Build configuration list for PBXNativeTarget "iOS-malrangMarket(ReactorKit)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3033FF3E292CD06C0047F0B3 /* Debug */,
+				3033FF3F292CD06C0047F0B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3033FF05292CD06A0047F0B3 /* Project object */;
+}
